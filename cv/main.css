@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.25;
+    font-size: 1.2em;
+}
+
+article {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    background: #fefefe;
+    flex-direction: column;
+}
+
+.block {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+}
+
+.block.header h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: cadetblue;
+}
+
+
+/* Left side */
+
+.left {
+    color: cadetblue;
+    text-align: right;
+    width: 25%;
+    padding-right: 1em;
+}
+
+.left.header {
+    font-family: 'Raleway', sans-serif;
+   
+    font-weight: 700;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    vertical-align: middle;
+}
+
+.left img {
+    width: 140px;
+}
+
+/* Right side */
+
+.right {
+    width: 75%;
+    padding-left: 1em;
+}
+
+.list > .list-item {
+    line-height: 1.5;
+}
+
+.list-item > i {
+    display: inline-block;
+    text-align: center;
+    width: 2em;
+    padding-right: 0em;
+    color: steelblue;
+}
+
+
+.horizontal.list {
+    padding-top: 0.25em;
+}
+
+.horizontal.list .label {
+    font-family: 'Raleway', sans-serif;
+    color: cadetblue;
+    padding-left: 0.5em; 
+}
+
+.horizontal.list i {
+    color: steelblue;
+}
+
+.right.divider {
+    color: cadetblue;
+    border-bottom: 1px solid cadetblue;
+    position: relative;
+}
+
+.right.divider::after {
+    position: absolute;
+    bottom: -0.25em;
+    right: 0;
+    text-align: right;
+    content: '\f04d';
+}
+
