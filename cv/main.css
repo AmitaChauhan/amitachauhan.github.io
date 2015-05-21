@@ -84,7 +84,15 @@ article {
 .horizontal.list .label {
     font-family: 'Raleway', sans-serif;
     color: cadetblue;
-    padding-left: 0.5em; 
+}
+
+.horizontal.list .item {
+    padding: 0 0.5em;
+    border-left: solid 1px cadetblue;
+}
+
+.horizontal.list .item:first-child {
+    border-left: none;
 }
 
 .horizontal.list i {
