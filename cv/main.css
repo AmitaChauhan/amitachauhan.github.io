@@ -46,8 +46,7 @@ article {
 
 .left.header {
     font-family: 'Raleway', sans-serif;
-   
-    font-weight: 700;
+    font-weight: bold;
     font-variant: small-caps;
     text-transform: lowercase;
     vertical-align: middle;
@@ -113,3 +112,7 @@ article {
     content: '\f04d';
 }
 
+.right .header {
+    font-family: 'Raleway', sans-serif;
+    color: cadetblue;
+}
