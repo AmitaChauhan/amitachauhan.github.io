@@ -1,0 +1,24 @@
+.et-center-align {
+    text-align: center;
+}
+
+h1.name-font {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.et-image-courtesy {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 1rem;
+}
+
+footer.footer-font-size#footer-size {
+    font font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5rem;
+}
