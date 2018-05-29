@@ -12,10 +12,17 @@ body {
     font-size: 2rem;
 }
 
+.minus-footer {
+  padding-bottom: 2em;
+}
+
 .et-image-courtesy {
     position: fixed;
-    bottom: 0.5rem;
+    bottom: 0;
     left: 1rem;
+    padding-bottom: 0.5em;
+    width: 100%;
+    background: white;
 }
 
 footer.footer-font-size#footer-size {
