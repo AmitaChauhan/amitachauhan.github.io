@@ -12,9 +12,11 @@ body {
     font-size: 2rem;
 }
 
+
 .minus-footer {
   padding-bottom: 2em;
 }
+
 
 .et-image-courtesy {
     position: fixed;
@@ -28,4 +30,18 @@ body {
 footer.footer-font-size#footer-size {
     font font-family: 'Fjalla One', sans-serif;
     font-size: 1.5rem;
+}
+
+
+.margin-zero {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cut::before {
+  position: absolute;
+  font-family: 'Indie Flower', cursive;
+  transform: rotate(-5deg) translate(0px, -15px) scale(1.1);
+  content: attr(data-replace);
 }
